@@ -1,0 +1,182 @@
+<!-- ===== Breadcrumb ===== -->
+<div class="container">
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="{{ROOT}}index.html">Home</a> <span>/</span>
+    <a href="{{ROOT}}projects.html">Projects</a> <span>/</span>
+    <span id="pCrumbName">Project</span>
+  </nav>
+</div>
+
+<!-- ===== Title block ===== -->
+<div class="container detail-head">
+  <h1 id="pTitle">Project details</h1>
+  <div class="detail-sub">
+    <span id="pBadges"></span>
+    <span class="prop-loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span id="pArea">Dhaka, Bangladesh</span></span>
+  </div>
+  <p id="pHandover" hidden style="font-weight:600; color:var(--muted); font-size:.9rem; margin:8px 0 0;"></p>
+</div>
+
+<!-- ===== Main layout ===== -->
+<div class="container section-tight" id="main">
+  <div class="detail-layout">
+    <div class="detail-main">
+
+      <!-- Cover image -->
+      <div class="panel">
+        <div class="gallery-main">
+          <img id="pCoverImg" src="" alt="" hidden>
+          <div class="ph-img" id="pCoverPh" role="img" aria-label="Project photo coming soon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:34px;height:34px;" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.6"/><path d="m4 18 5-5 3 3 4-4 4 4"/></svg>
+            <span>Photo coming soon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description (hidden unless the developer published one) -->
+      <div class="panel" id="pDescPanel" hidden>
+        <h2>About This Project</h2>
+        <div class="desc-body" id="pDesc"></div>
+      </div>
+    </div>
+
+    <!-- ===== Sidebar ===== -->
+    <aside>
+      <div class="panel" id="pFactsPanel">
+        <h2>Key Facts</h2>
+        <div class="specs-grid">
+          <div class="spec-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><small>Area</small><strong id="pFactArea">&mdash;</strong></div>
+          </div>
+          <div class="spec-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 21V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16M4 21h16M9 8h6m-6 4h6m-6 4h6"/></svg>
+            <div><small>Status</small><strong id="pFactStatus">&mdash;</strong></div>
+          </div>
+          <div class="spec-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4m8-4v4M3 10h18"/></svg>
+            <div><small>Handover</small><strong id="pFactHandover">&mdash;</strong></div>
+          </div>
+        </div>
+        <p class="form-note" style="margin:14px 0 0;">As listed by the developer on bdhousing.com (retrieved November 2026).</p>
+      </div>
+
+      <div class="panel" style="margin-top:22px;">
+        <h2>Interested in this project?</h2>
+        <p>Ask us about availability, floor plans and prices in this building.</p>
+        <a class="btn btn-dark btn-block" href="{{ROOT}}contact.html">Contact Us</a>
+        <p style="margin:12px 0 0;"><a class="btn btn-outline btn-sm btn-block" href="{{ROOT}}properties.html">All Available Apartments</a></p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- ===== Apartments in this project ===== -->
+  <section class="section-tight" style="padding-bottom:0;">
+    <div class="section-head">
+      <span class="eyebrow">This building</span>
+      <h2>Apartments in This Project</h2>
+    </div>
+    <div class="prop-grid" id="pProps" aria-live="polite"></div>
+  </section>
+</div>
+
+<script>
+/* Project detail renderer — the build injects window.HDDL_PROJECT and
+   window.HDDL_PROJECT_PROPERTIES AFTER the standard scripts, so this must
+   wait for DOMContentLoaded. No dedicated project JS file exists. */
+(function () {
+  "use strict";
+  function ready(fn) {
+    if (document.readyState !== "loading") fn();
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
+  ready(function () {
+    var ROOT = "../"; /* these pages live at projects/project-<slug>.html */
+    var P = window.HDDL_PROJECT || null;
+    var props = Array.isArray(window.HDDL_PROJECT_PROPERTIES) ? window.HDDL_PROJECT_PROPERTIES : [];
+    var esc = window.esc || function (s) { return String(s == null ? "" : s); };
+
+    /* prefix local asset paths for the ../ subdirectory; pass URLs through */
+    function prefixed(src) {
+      if (!src) return "";
+      if (/^(https?:|data:|\/)/.test(src) || src.indexOf("../") === 0) return src;
+      return ROOT + src;
+    }
+
+    /* ---- title / header block ---- */
+    document.getElementById("pCrumbName").textContent = P && P.name ? P.name : "Project";
+    document.getElementById("pTitle").textContent = P && P.name ? P.name : "Project details";
+    if (P && P.name) document.title = P.name + " — Hyperion Design & Development Ltd.";
+
+    var badges = "";
+    if (P && P.status) badges += '<span class="badge">' + esc(P.status) + "</span>";
+    if (P && P.handover) badges += '<span class="badge gold">Handover ' + esc(P.handover) + "</span>";
+    document.getElementById("pBadges").innerHTML = badges;
+
+    document.getElementById("pArea").textContent = P && P.area ? P.area + ", Dhaka" : "Dhaka, Bangladesh";
+    if (P && P.handover) {
+      var h = document.getElementById("pHandover");
+      h.textContent = "Handover (as listed): " + P.handover;
+      h.hidden = false;
+    }
+
+    /* ---- cover image (placeholder until the image proves it loads) ---- */
+    var img = document.getElementById("pCoverImg");
+    var ph = document.getElementById("pCoverPh");
+    if (P && P.cover_image) {
+      img.addEventListener("error", function () {
+        img.hidden = true;
+        ph.hidden = false;
+      });
+      img.src = prefixed(P.cover_image);
+      img.alt = P.name ? P.name + " — project cover photo" : "Project cover photo";
+      img.hidden = false;
+      ph.hidden = true;
+    }
+
+    /* ---- description: omit the section when the developer published none ---- */
+    var panel = document.getElementById("pDescPanel");
+    var desc = document.getElementById("pDesc");
+    var text = P && typeof P.description === "string" ? P.description.trim() : "";
+    if (text) {
+      text.split(/\n+/).forEach(function (para) {
+        if (!para.trim()) return;
+        var pEl = document.createElement("p");
+        pEl.textContent = para.trim();
+        desc.appendChild(pEl);
+      });
+      panel.hidden = false;
+    } else if (!P) {
+      desc.innerHTML = '<div class="notice">Contact us for details about this project.</div>';
+      panel.hidden = false;
+    }
+
+    /* ---- key facts ---- */
+    if (P) {
+      document.getElementById("pFactArea").textContent = P.area ? P.area + ", Dhaka" : "Dhaka";
+      document.getElementById("pFactStatus").textContent = P.status || "As listed";
+      document.getElementById("pFactHandover").textContent = P.handover || "—";
+    } else {
+      document.getElementById("pFactsPanel").hidden = true;
+    }
+
+    /* ---- apartments in this project: standard property-card pattern ----
+       render.js's coverFor does not add the ROOT prefix to image paths, so
+       shallow clones are passed with images re-prefixed for ../ pages. */
+    function withPrefixedImages(p) {
+      var clone = Object.assign({}, p);
+      if (typeof clone.image === "string") clone.image = prefixed(clone.image);
+      if (Array.isArray(clone.images)) clone.images = clone.images.map(prefixed);
+      return clone;
+    }
+    var grid = document.getElementById("pProps");
+    if (window.renderCards && window.jQuery) {
+      window.renderCards(window.jQuery(grid), props.map(withPrefixedImages), ROOT,
+        "No apartments are currently listed under this project. Please <a href=\"" + ROOT + "contact.html\">contact us</a> — details may not be published yet.");
+    } else {
+      grid.innerHTML = '<div class="no-results">Apartment details are loading. Please <a href="' +
+        ROOT + 'contact.html">contact us</a> for the current list.</div>';
+    }
+  });
+})();
+</script>

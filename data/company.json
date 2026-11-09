@@ -1,0 +1,29 @@
+{
+  "name": "Hyperion Design & Development Ltd.",
+  "short_name": "HDDL",
+  "tagline": null,
+  "about": null,
+  "facebook": "https://www.facebook.com/hddlbd/",
+  "phone": {
+    "display": "+880 1701-287501",
+    "intl": "+8801701287501",
+    "whatsapp": null,
+    "masked_pattern": null,
+    "secondary_display": null,
+    "verified": true,
+    "source": "research/contact-verification.md #3 (checked 2026-11-08): 'Mobile / primary hotline +880 1701-287501' — VERIFIED via the company's Facebook page About tab [FB-ABOUT], quoted verbatim in the company's own post [FB-POST] and reel [FB-REEL]; the same number is the listed owner contact on bdhousing listing 247442."
+  },
+  "email": "info@hddlbd.com",
+  "email_source": "research/contact-verification.md #10: three independent credible sources (Facebook page About, the company's own site hddlbd.com/site/contact.html, REHAB members directory).",
+  "address": {
+    "line": "Hyperion Tower, House #02, Block #A, Road #04, Section #10, Mirpur, Dhaka-1216, Bangladesh",
+    "city": "Dhaka",
+    "country": "Bangladesh"
+  },
+  "address_source": "research/contact-verification.md #11: verified via the company's own website, the REHAB members directory and bdtalika.com; the Facebook page itself shows only city level ('Mirpur, Bangladesh, 1216').",
+  "website": "https://hddlbd.com/",
+  "logo_url": null,
+  "founded_year": 2000,
+  "founded_year_source": "research/contact-verification.md #16 and research/bdhousing-company.md: the company's own bdhousing bio states 'Hyperion started its journey in 2000'. (The unofficial vercel demo claims 'since 2010' — treat 2000 as authoritative.)",
+  "notes": "Policy note (unchanged in spirit): never fill null fields with guessed values; every fact must trace to research/. Updated 2026-11-09 from research/contact-verification.md (checked 2026-11-08). NOW FILLED: phone.display/intl (+880 1701-287501, verified, see phone.source), email (info@hddlbd.com, 3 independent sources), address.line (3 independent sources), website (hddlbd.com, #12), founded_year (2000, company's own bio). STILL NULL AND WHY: phone.whatsapp (#13: no public WhatsApp number found anywhere; site JS derives wa.me links from phone.intl when verified=true, which assumes the hotline is WhatsApp-reachable — confirm with the client); phone.masked_pattern (the bdhousing listings mask '01817158xxx', which belongs to the +8801817158_095/096 number pair, not to the primary above); phone.secondary_display (contact.html hardcodes the label 'Alt. (Hyperion pride):', but that listing's verified number +8801701287501 IS the primary above, so there is no verified distinct alt number); tagline, about (no verified tagline; a verbatim company bio from the bdhousing profile is available in research/bdhousing-company.md if needed); logo_url (no logo file with confirmed provenance). CAUTION: bdhousing listings' owner number +8801817158095 (#6) conflicts in the last digit with the company site's 01817158096 (#5) — both are attested; per-listing numbers are preserved on each property's contact_phone in data/properties.json; confirm the canonical number with the client before publishing."
+}

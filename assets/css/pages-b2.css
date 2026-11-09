@@ -1,0 +1,90 @@
+/* ============================================================
+   HDDL — page additions (group B pages: gallery/videos/news/404)
+   Append-only. Loaded AFTER assets/css/style.css (add the link in
+   templates/head.html). Everything here supplements the design
+   system in style.css — never edit style.css itself.
+   ============================================================ */
+
+/* ---------- news timeline (news.html) ---------- */
+.news-timeline {
+  position: relative;
+  max-width: 860px;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0 0;
+}
+.news-timeline::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: var(--line-2);
+}
+.tl-item {
+  position: relative;
+  padding: 0 0 38px 46px;
+}
+.tl-item:last-child { padding-bottom: 6px; }
+.tl-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bronze);
+  border: 4px solid var(--bronze-soft);
+}
+.tl-date {
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--bronze-2);
+  margin-bottom: 6px;
+}
+.tl-item h3 { font-size: 1.18rem; margin-bottom: 6px; }
+.tl-item p { color: var(--muted); margin: 0; }
+.tl-list {
+  margin: 12px 0 0;
+  display: grid;
+  gap: 10px;
+}
+.tl-list li {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: .93rem;
+  color: var(--text);
+}
+.tl-list strong { color: var(--ink); }
+.tl-list a { font-weight: 700; margin-left: 8px; white-space: nowrap; }
+.tl-status {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 800;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .18rem .6rem;
+  border-radius: 999px;
+  background: rgba(19, 42, 62, .92);
+  color: #fff;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+.tl-status-ready { background: var(--ok); }
+
+@media (max-width: 640px) {
+  .tl-item { padding-left: 36px; }
+  .tl-list li { padding: 11px 13px; }
+  .tl-list a { display: inline-block; margin: 6px 0 0; white-space: normal; }
+}
+
+/* ---------- gallery (gallery.html) ---------- */
+/* style.css sets .gallery-item { margin-bottom: 18px; } but never resets the
+   browser's default figure margin (1em 40px) — narrow the sides back to 0. */
+.gallery-item { margin: 0 0 18px; }

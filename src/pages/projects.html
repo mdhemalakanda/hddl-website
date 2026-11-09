@@ -1,0 +1,89 @@
+<section class="section-tight" id="main">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Projects</span>
+      <h1>Our Projects</h1>
+      <p class="lead">The apartment buildings Hyperion Design &amp; Development Ltd. currently lists in Dhaka — in Pallabi and Banasree. Open a project for its details, cover photo and available apartments.</p>
+    </div>
+
+    <div class="grid grid-3" id="projectsGrid" aria-live="polite" aria-label="Project list">
+      <div class="no-results">Our project list is being prepared. Please <a href="{{ROOT}}contact.html">contact us</a> for details about current buildings.</div>
+    </div>
+
+    <p class="form-note" style="margin-top:18px;">Project facts are taken from the developer&rsquo;s published listings on bdhousing.com (retrieved November 2026).</p>
+  </div>
+</section>
+
+<script>
+/* Renders the project grid from window.HDDL_PROJECTS (data bridge loaded
+   via templates/scripts.html before DOMContentLoaded). No renderer for
+   projects exists in render.js, so this page fills its own grid. */
+(function () {
+  "use strict";
+  function ready(fn) {
+    if (document.readyState !== "loading") fn();
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
+  ready(function () {
+    var grid = document.getElementById("projectsGrid");
+    if (!grid) return;
+    var ROOT = ""; /* root-level page */
+    var esc = window.esc || function (s) { return String(s == null ? "" : s); };
+    var ICONS = window.ICONS || { pin: "", photo: "", arrow: "" };
+
+    /* local cover paths work as-is at the site root; hotlinked URLs pass through */
+    function imgSrc(src) {
+      if (!src) return "";
+      if (/^(https?:|data:|\/)/.test(src)) return src;
+      return ROOT + src;
+    }
+
+    function card(p) {
+      var href = ROOT + "projects/project-" + esc(p.slug) + ".html";
+      var media;
+      if (p.cover_image) {
+        media = '<img class="cover" src="' + esc(imgSrc(p.cover_image)) +
+          '" alt="' + esc(p.name) + ' — project cover photo" loading="lazy">';
+      } else {
+        media = '<div class="ph-img" role="img" aria-label="Project photo coming soon">' +
+          ICONS.photo + "<span>Photo coming soon</span></div>";
+      }
+      var chips = "";
+      if (p.status) chips += '<span class="proj-stat">' + esc(p.status) + "</span>";
+      if (p.handover) chips += '<span class="proj-stat">Handover: ' + esc(p.handover) + "</span>";
+      return (
+        '<article class="project-card reveal in">' +
+        media +
+        '<div class="project-card-body">' +
+        '<h3><a href="' + href + '">' + esc(p.name) + "</a></h3>" +
+        '<span class="prop-loc">' + ICONS.pin + esc(p.area ? p.area + ", Dhaka" : "Dhaka") + "</span>" +
+        (chips ? '<div class="proj-stats">' + chips + "</div>" : "") +
+        '<div class="row"><a class="btn btn-accent btn-sm" href="' + href + '">View project ' + ICONS.arrow + "</a></div>" +
+        "</div></article>"
+      );
+    }
+
+    function fallback() {
+      grid.innerHTML = '<div class="no-results">Project details are being prepared. Please <a href="' +
+        ROOT + 'contact.html">contact us</a> for details about current buildings.</div>';
+    }
+
+    var projects = window.HDDL_PROJECTS;
+    if (!projects || !projects.length) { fallback(); return; }
+
+    grid.innerHTML = projects.map(card).join("");
+
+    /* if a cover file is missing on disk, swap the image for the standard placeholder */
+    grid.querySelectorAll(".project-card img.cover").forEach(function (img) {
+      img.addEventListener("error", function () {
+        var ph = document.createElement("div");
+        ph.className = "ph-img";
+        ph.setAttribute("role", "img");
+        ph.setAttribute("aria-label", "Project photo coming soon");
+        ph.innerHTML = (window.ICONS ? window.ICONS.photo : "") + "<span>Photo coming soon</span>";
+        img.replaceWith(ph);
+      });
+    });
+  });
+})();
+</script>

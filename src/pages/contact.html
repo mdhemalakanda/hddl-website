@@ -1,0 +1,120 @@
+<section class="section-tight" id="main">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Contact</span>
+      <h1>Contact Us</h1>
+      <p class="lead">Call, WhatsApp or message us about any apartment. We reply directly — this website does not store messages; your enquiry opens in WhatsApp or your email app.</p>
+    </div>
+
+    <div class="contact-cards">
+      <div class="contact-card" id="ccPhone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.3-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 2Z"/></svg>
+        <h3>Phone</h3>
+        <a href="{{PHONE_TEL}}">{{PHONE_DISPLAY}}</a>
+        <p class="form-note" id="ccSecondary" style="color:#9fb0bf; margin:6px 0 0;" hidden></p>
+      </div>
+      <div class="contact-card" id="ccEmail">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m22 7-10 6L2 7"/></svg>
+        <h3>Email</h3>
+        <a href="{{MAILTO}}">{{EMAIL_DISPLAY}}</a>
+        <p class="form-note" style="color:#9fb0bf; margin:6px 0 0;">We answer enquiries by email as well.</p>
+      </div>
+      <div class="contact-card" id="ccWa">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.35-2 1.4-.5.05-1.15.25-3.85-.8-3.25-1.3-5.3-4.6-5.45-4.8-.15-.2-1.3-1.75-1.3-3.35 0-1.6.85-2.4 1.15-2.7.3-.3.65-.4.85-.4h.6c.2 0 .45-.05.7.55.25.6.85 2.1.95 2.25.1.15.15.35.05.55-.1.2-.2.35-.35.55-.15.2-.35.45-.25.6.1.15.45.75 1.05 1.25.75.65 1.35.85 1.55.95.2.1.35.1.5-.05.15-.15.6-.7.75-.95.15-.25.3-.2.5-.15.2.1 1.55.75 1.8.9.25.15.45.2.5.3.05.15.05.7-.2 1.4Z"/></svg>
+        <h3>WhatsApp</h3>
+        <a id="ccWaLink" href="{{WHATSAPP_URL}}" target="_blank" rel="noopener">{{WHATSAPP_DISPLAY}}</a>
+        <p class="form-note" style="color:#9fb0bf; margin:6px 0 0;">Fastest way to reach us — send your enquiry anytime.</p>
+      </div>
+      <div class="contact-card" id="ccFb">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.6 1.7-1.6h1.5V3.2c-.3 0-1.2-.1-2.3-.1-2.4 0-4 1.4-4 4v2.7H7.6V13h2.8v8h3.1Z"/></svg>
+        <h3>Facebook</h3>
+        <a href="{{FB_URL}}" target="_blank" rel="noopener">facebook.com/hddlbd</a>
+        <p class="form-note" style="color:#9fb0bf; margin:6px 0 0;">Updates, photos and messages on our official page.</p>
+      </div>
+    </div>
+
+    <div class="contact-layout">
+      <div class="panel">
+        <h2>Send us a message</h2>
+        <p class="inquiry-preview" id="inqPreview" hidden></p>
+        <form id="inquiryForm" novalidate>
+          <div class="form-field">
+            <label for="inqName">Name</label>
+            <input id="inqName" type="text" required autocomplete="name" placeholder="Your full name">
+            <span class="field-error">Please enter your name.</span>
+          </div>
+          <div class="form-field">
+            <label for="inqEmail">Email</label>
+            <input id="inqEmail" type="email" required autocomplete="email" placeholder="you@example.com">
+            <span class="field-error">Please enter a valid email address.</span>
+          </div>
+          <div class="form-field">
+            <label for="inqPhone">Phone</label>
+            <input id="inqPhone" type="tel" required data-kind="phone" autocomplete="tel" placeholder="+880 1XXX-XXXXXX">
+            <span class="field-error">Please enter a valid phone number.</span>
+          </div>
+          <div class="form-field">
+            <label for="inqCountry">Country</label>
+            <select id="inqCountry"><option value="">Select country</option></select>
+          </div>
+          <div class="form-field">
+            <label for="inqMessage">Message</label>
+            <textarea id="inqMessage" required placeholder="Tell us which apartment or project you are interested in…"></textarea>
+            <span class="field-error">Please write a short message.</span>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-wa btn-block" type="submit">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.2-1.5A9.9 9.9 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.35-2 1.4-.5.05-1.15.25-3.85-.8-3.25-1.3-5.3-4.6-5.45-4.8-.15-.2-1.3-1.75-1.3-3.35 0-1.6.85-2.4 1.15-2.7.3-.3.65-.4.85-.4h.6c.2 0 .45-.05.7.55.25.6.85 2.1.95 2.25.1.15.15.35.05.55-.1.2-.2.35-.35.55-.15.2-.35.45-.25.6.1.15.45.75 1.05 1.25.75.65 1.35.85 1.55.95.2.1.35.1.5-.05.15-.15.6-.7.75-.95.15-.25.3-.2.5-.15.2.1 1.55.75 1.8.9.25.15.45.2.5.3.05.15.05.7-.2 1.4Z"/></svg>
+              Send Message
+            </button>
+            <p class="form-note">Your enquiry opens directly in WhatsApp or your email app. Sending completes there — nothing is stored on this website.</p>
+          </div>
+          <div class="form-blocked" id="formBlocked" hidden tabindex="-1"></div>
+        </form>
+      </div>
+
+      <div>
+        <div class="panel">
+          <h2>Office</h2>
+          <p id="ccAddress" style="font-weight:600;">{{ADDRESS_DISPLAY}}</p>
+          <p class="form-note">Visits to our ongoing project sites in Pallabi and Banasree can be arranged over phone or WhatsApp.</p>
+        </div>
+        <div class="panel" style="margin-top:22px;">
+          <h2>Currently listed apartments</h2>
+          <div id="ccProps" style="display:grid; gap:10px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  /* Bridges load after this fragment, so wait for DOMContentLoaded. */
+  function ready(fn) {
+    if (document.readyState !== "loading") fn();
+    else document.addEventListener("DOMContentLoaded", fn);
+  }
+  ready(function () {
+  var C = window.HDDL_COMPANY || {};
+  /* hide cards whose destination is not verified — no dead buttons */
+  if (!(C.phone && C.phone.intl && C.phone.verified)) document.getElementById("ccPhone").classList.add("hidden-section");
+  if (!(C.phone && C.phone.whatsapp)) document.getElementById("ccWa").classList.add("hidden-section");
+  if (!C.email) { var e = document.getElementById("ccEmail"); if (e) e.classList.add("hidden-section"); }
+  if (C.phone && C.phone.secondary_display) {
+    var s = document.getElementById("ccSecondary");
+    s.textContent = "Alt. (Hyperion pride): " + C.phone.secondary_display;
+    s.hidden = false;
+  }
+  /* quick list of current apartments */
+  var box = document.getElementById("ccProps");
+  (window.HDDL_PROPERTIES || []).slice(0, 5).forEach(function (p) {
+    var a = document.createElement("a");
+    a.href = "properties/property-" + p.id + ".html";
+    a.style.cssText = "display:flex;justify-content:space-between;gap:10px;font-weight:700;border-bottom:1px dashed var(--line);padding-bottom:8px;";
+    a.innerHTML = "<span>" + (p.project_name || p.title) + "</span><span style=\"color:var(--muted);white-space:nowrap;\">" + (p.area || "") + "</span>";
+    box.appendChild(a);
+  });
+  });
+})();
+</script>

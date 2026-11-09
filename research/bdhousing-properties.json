@@ -1,0 +1,459 @@
+[
+  {
+    "property_id": 247334,
+    "title": "2000 sqft, 4 Beds Under Construction Apartment/Flats for Sale at Pallabi",
+    "project_name": "Hyperion Chayapallab",
+    "sale_or_rent": "Sale",
+    "property_type": "Apartment/Flats",
+    "price": "Call for price",
+    "price_per_sqft": null,
+    "construction_status": "Under Construction",
+    "transaction_type": "New",
+    "handover_date": "December 30, 2026",
+    "location": {
+      "city": "Dhaka",
+      "area": "Pallabi",
+      "neighborhood": null,
+      "block": null,
+      "road": "08",
+      "plot": "05",
+      "full_address": "plot : 05, road :08, main pallabi. Near juvenile English medium school pallabi.",
+      "location_as_listed": "Pallabi , Dhaka"
+    },
+    "specs": {
+      "size_sqft": 2000,
+      "size_as_listed": "2000 sqft",
+      "bedrooms": 4,
+      "bedrooms_as_listed": "04",
+      "bathrooms": 4,
+      "bathrooms_as_listed": "04",
+      "balconies": 3,
+      "parking": "Parking 1",
+      "floor_available_on": "4th Floor, 6th Floor",
+      "total_floors": null,
+      "furnishing": "Unfurnished",
+      "facing": "N/A",
+      "land_area": "N/A"
+    },
+    "features": [
+      "Security",
+      "Lift",
+      "Fire exit",
+      "WASA connection",
+      "Self Water supply",
+      "Hot water",
+      "Titas Gas",
+      "Electricity",
+      "Generator",
+      "Telephone line",
+      "Intercom",
+      "CCTV",
+      "Wi-Fi connectivity",
+      "Security Alarm System",
+      "Electronic security",
+      "Solar panels",
+      "Servant Toilet",
+      "Fire Protection"
+    ],
+    "description": null,
+    "images": [
+      "https://www.bdhousing.com/api/list/listings/100X100/247334/2240d37b5367c77862abe54dc2b07cab.jpeg",
+      "https://www.bdhousing.com/api/list/listings/564X394/247334/2240d37b5367c77862abe54dc2b07cab.jpeg"
+    ],
+    "floor_plan_images": [
+      "https://www.bdhousing.com/api/list/floors/100X100/12531/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/12532/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg"
+    ],
+    "floor_plan_thumbnails": [
+      "https://www.bdhousing.com/api/list/floors/150X150/12531/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/12532/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg"
+    ],
+    "videos": [],
+    "map_embed": null,
+    "owner": {
+      "company": "Hyperion Design & Development Ltd.",
+      "contact_person": "Md. Ziaul Haque",
+      "phone": "+8801817158095"
+    },
+    "source_url": "https://www.bdhousing.com/details/247334/4-beds-under-construction-apartment-flats-sale-pallabi",
+    "retrieved_date": "2026-11-08",
+    "data_notes": [
+      "Property Description section is present on the detail page but is empty (no description text was published).",
+      "Meta description says \"for sale on 7,9\" while the Property Summary \"Floor Avaiable On\" field says \"4th Floor, 6th Floor\" - floor availability is inconsistent on the source page.",
+      "Total floors and number of units are not listed for this property.",
+      "Duplicate floor-plan image entries (IDs 34063, 34064) point to the same files as IDs 12531, 12532; unique files kept.",
+      "Masked phone +8801817158xxx shown publicly; full owner number +8801817158095 shown in Property Owner Details."
+    ]
+  },
+  {
+    "property_id": 247442,
+    "title": "3 Beds Under Construction Flats for Sale at Pallabi",
+    "project_name": "Hyperion pride",
+    "sale_or_rent": "Sale",
+    "property_type": "Apartment/Flats",
+    "price": "Call for price",
+    "price_per_sqft": null,
+    "construction_status": "Under Construction",
+    "transaction_type": "New",
+    "handover_date": "April 20, 2025",
+    "location": {
+      "city": "Dhaka",
+      "area": "Pallabi",
+      "neighborhood": "Ext Pallabi",
+      "block": "d",
+      "road": null,
+      "plot": "5",
+      "full_address": "5, block- d, ext pallabi.",
+      "location_as_listed": "Pallabi , Dhaka"
+    },
+    "specs": {
+      "size_sqft": 1350,
+      "size_as_listed": "1350 sqft",
+      "bedrooms": 3,
+      "bedrooms_as_listed": "03",
+      "bathrooms": 3,
+      "bathrooms_as_listed": "03",
+      "balconies": 2,
+      "parking": "Parking 1",
+      "floor_available_on": "Any Floor",
+      "total_floors": 6,
+      "furnishing": "Unfurnished",
+      "facing": "West Facing",
+      "land_area": "5 katha"
+    },
+    "features": [
+      "Security",
+      "Lift",
+      "Fire exit",
+      "WASA connection",
+      "Hot water",
+      "Titas Gas",
+      "Cylinder Gas",
+      "Electricity",
+      "Generator",
+      "Telephone line",
+      "Intercom",
+      "CCTV",
+      "Wi-Fi connectivity",
+      "Security Alarm System",
+      "Electronic security",
+      "Garden",
+      "Solar panels",
+      "Servant Toilet",
+      "Fire Protection"
+    ],
+    "description": null,
+    "images": [
+      "https://www.bdhousing.com/api/list/listings/100X100/247442/2a0b76bfd95ef6528d8dfdf4fee17e4f.jpg",
+      "https://www.bdhousing.com/api/list/listings/564X394/247442/2a0b76bfd95ef6528d8dfdf4fee17e4f.jpg"
+    ],
+    "floor_plan_images": [
+      "https://www.bdhousing.com/api/list/floors/100X100/12602/7151eff0f6aab86c7cf086244b6db8e5.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/12603/8512a0501d42395f51c5c738f42a23b9.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/12604/1cb223c3724bdbd0de3be0127cac532b.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/34420/c6d946ad96afcefe3287340a6790f716.jpg"
+    ],
+    "floor_plan_thumbnails": [
+      "https://www.bdhousing.com/api/list/floors/150X150/12602/7151eff0f6aab86c7cf086244b6db8e5.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/12603/8512a0501d42395f51c5c738f42a23b9.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/12604/1cb223c3724bdbd0de3be0127cac532b.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/34420/c6d946ad96afcefe3287340a6790f716.jpg"
+    ],
+    "videos": [],
+    "map_embed": null,
+    "owner": {
+      "company": "Hyperion Design & Development Ltd.",
+      "contact_person": "Md. Ziaul Haque",
+      "phone": "+8801701287501"
+    },
+    "source_url": "https://www.bdhousing.com/details/247442/under-construction-apartment-flats-sale-pallabi",
+    "retrieved_date": "2026-11-08",
+    "data_notes": [
+      "Property Description section is present on the detail page but is empty (no description text was published).",
+      "Listed handover date (April 20, 2025) is in the past relative to retrieval date (2026-11-08), yet construction status still reads \"Under Construction\" on the source page.",
+      "Owner phone listed for this property (+8801701287501) differs from the number on the other four listings (+8801817158095).",
+      "Duplicate floor-plan image entries (IDs 34421, 34422, 34423) point to the same files as IDs 12602, 12603, 12604; unique files kept."
+    ]
+  },
+  {
+    "property_id": 248497,
+    "title": "1695 sqft, 3 Beds Under Construction Flats for Sale at Banasree",
+    "project_name": "Hyperion Park View Building -3",
+    "sale_or_rent": "Sale",
+    "property_type": "Apartment/Flats",
+    "price": "BDT 1.46 Cr. / 8,600 per sqft",
+    "price_per_sqft": "8,600",
+    "construction_status": "Under Construction",
+    "transaction_type": "New",
+    "handover_date": "February 10, 2026",
+    "location": {
+      "city": "Dhaka",
+      "area": "Banasree",
+      "neighborhood": null,
+      "block": null,
+      "road": "Titash Road",
+      "plot": "246/6/ka & 248/7/B",
+      "full_address": "246/6/ka & 248/7/B, Titash Road, Bansree, Dhaka",
+      "location_as_listed": "Banasree , Dhaka"
+    },
+    "specs": {
+      "size_sqft": 1695,
+      "size_as_listed": "1695 sqft",
+      "bedrooms": 3,
+      "bedrooms_as_listed": "03",
+      "bathrooms": 3,
+      "bathrooms_as_listed": "03",
+      "balconies": 3,
+      "parking": "Parking 1",
+      "floor_available_on": "Any Floor",
+      "total_floors": 13,
+      "furnishing": "N/A",
+      "facing": "West Facing",
+      "land_area": "57.6 katha"
+    },
+    "features": [
+      "Mosque/Prayer Room",
+      "Security",
+      "Lift",
+      "Fire exit",
+      "WASA connection",
+      "Self Water supply",
+      "Hot water",
+      "Titas Gas",
+      "Cylinder Gas",
+      "Electricity",
+      "Generator",
+      "Telephone line",
+      "Intercom",
+      "CCTV",
+      "Wi-Fi connectivity",
+      "Security Alarm System",
+      "Satellite or cable TV",
+      "Electronic security",
+      "Pool",
+      "Gymnasium",
+      "Garden",
+      "Solar panels",
+      "Guest Parking",
+      "Servant Room",
+      "Servant Toilet",
+      "Fire Protection"
+    ],
+    "description": null,
+    "images": [
+      "https://www.bdhousing.com/api/list/listings/100X100/248497/a77488e9b2bce86b87bcc2fcdaa63bd5.jpg",
+      "https://www.bdhousing.com/api/list/listings/564X394/248497/a77488e9b2bce86b87bcc2fcdaa63bd5.jpg"
+    ],
+    "floor_plan_images": [],
+    "floor_plan_thumbnails": [],
+    "videos": [],
+    "map_embed": null,
+    "owner": {
+      "company": "Hyperion Design & Development Ltd.",
+      "contact_person": "Md. Ziaul Haque",
+      "phone": "+8801817158095"
+    },
+    "source_url": "https://www.bdhousing.com/details/248497/under-construction-flats-sale-banasree",
+    "retrieved_date": "2026-11-08",
+    "data_notes": [
+      "Property Description section is present on the detail page but is empty (no description text was published).",
+      "Only listing of the five with a published price (BDT 1.46 Cr. / 8,600 per sqft).",
+      "No floor-plan images on the detail page.",
+      "Furnishing field shows \"N/A\".",
+      "Address spells the area \"Bansree\" on the source page (kept verbatim).",
+      "Land area (57.6 katha) and total floors (13) suggest this is a large multi-building complex; per-building breakdown is not provided."
+    ]
+  },
+  {
+    "property_id": 243796,
+    "title": "1500 sqft, 3 Beds Under Construction Apartment/Flats for Sale at Banasree",
+    "project_name": "Hyperion Mozibur Tower",
+    "sale_or_rent": "Sale",
+    "property_type": "Apartment/Flats",
+    "price": "Call for price",
+    "price_per_sqft": null,
+    "construction_status": "Ready",
+    "transaction_type": "New",
+    "handover_date": "June 22, 2023",
+    "location": {
+      "city": "Dhaka",
+      "area": "Banasree",
+      "neighborhood": "Meradia, Bhuiyapara",
+      "block": null,
+      "road": null,
+      "plot": "202/03",
+      "full_address": "Plot-202/03, Meradia, Bhuiyapara, Banasree, Dhaka-1219.",
+      "location_as_listed": "Banasree , Dhaka"
+    },
+    "specs": {
+      "size_sqft": 1500,
+      "size_as_listed": "1500 sqft",
+      "bedrooms": 3,
+      "bedrooms_as_listed": "03",
+      "bathrooms": 3,
+      "bathrooms_as_listed": "03",
+      "balconies": 2,
+      "parking": "Parking 1",
+      "floor_available_on": null,
+      "total_floors": 9,
+      "furnishing": "Unfurnished",
+      "facing": "West Facing",
+      "land_area": "14.00 katha"
+    },
+    "features": [
+      "Security",
+      "Lift",
+      "WASA connection",
+      "Self Water supply",
+      "Cylinder Gas",
+      "Electricity",
+      "Generator",
+      "CCTV",
+      "Wi-Fi connectivity",
+      "Electronic security",
+      "Solar panels",
+      "Guest Parking",
+      "Fire Protection"
+    ],
+    "description": "DescriptionDear Sir, 1500 sq-ftf Exclusive apartment available for sale in Hyperion Mojibur Tower. Hyperion Mojibur Tower has been built by Hyperion design & development ltd company and it is located in BUIYAPARA, Banasree. Hyperion design & development ltd has arranged to build a secured gated community on 14.00 Khatas land at BUIYAPARA, Banasree, Dhaka named the “Hyperion Mojibur Tower.\". This would be a big residential complex consisting of 35 apartments leaving 40 % of the land area clear for the habitants to enjoy. It is only 5 minutes drive from Rampura Tv Center. It comprises of number of special features which may ensure healthy environment for the community to enjoy truly a World Class Living in “Hyperion Mojibur Tower.\"at BUIYAPARA, Banasree.\nProject Name: Hyperion Mojibur Tower\nProject Address: Bhuiyapara,Banasree,Dhaka-1219.\nBuilding Height: 10 storied .\nBuilding -01 : Residential building\nProject Facing: West\nLand Use: 40%\nLand Area: 14.00 katha.\nNumber of Apartments: 35 Nos.\nNumber of Parking: 35 cars.\nCommon Features:\nbuilding : 1 lifts (10 persons).\nbuilding - 1 stairs\nEuropean Standard Generator.\nExpected Handover: December ,204",
+    "images": [
+      "https://www.bdhousing.com/api/list/listings/100X100/243796/ed7d949f70f29fb2b5845b933d73803f.jpg",
+      "https://www.bdhousing.com/api/list/listings/564X394/243796/ed7d949f70f29fb2b5845b933d73803f.jpg"
+    ],
+    "floor_plan_images": [
+      "https://www.bdhousing.com/api/list/floors/100X100/24413/5c70b3b3af79a46bb488e5a253206964.jpg"
+    ],
+    "floor_plan_thumbnails": [
+      "https://www.bdhousing.com/api/list/floors/150X150/24413/5c70b3b3af79a46bb488e5a253206964.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/embed/bvCyhGpIe_U?si=w7d_FbjI2kQbFAi5"
+    ],
+    "map_embed": null,
+    "owner": {
+      "company": "Hyperion Design & Development Ltd.",
+      "contact_person": "Md. Ziaul Haque",
+      "phone": "+8801817158095"
+    },
+    "source_url": "https://www.bdhousing.com/details/243796/1500-sqft-3-beds-apartment-flats-sale-banasree",
+    "retrieved_date": "2026-11-08",
+    "data_notes": [
+      "Status conflict on source page: Property Summary says \"Ready\" while the page title and meta description say \"Under Construction\".",
+      "Listed handover date (June 22, 2023) is in the past relative to retrieval date (2026-11-08).",
+      "Description text starts with \"DescriptionDear Sir,\" glued together and ends \"Expected Handover: December ,204\" (sic, truncated year) - kept verbatim from the source.",
+      "Description spells the project \"Mojibur Tower\" while the Property Name field spells it \"Mozibur Tower\" (source inconsistency, kept verbatim).",
+      "Description mentions a 10-storied building with 35 apartments and 35 parking; the summary field says Total Floor: 9 (source inconsistency, both kept).",
+      "No \"Floor Avaiable On\" row in the summary table for this listing."
+    ]
+  },
+  {
+    "property_id": 241776,
+    "title": "1690 sqft, 3 Beds Under Construction Flats for Sale at Banasree",
+    "project_name": "Hyperion Park View Building -2",
+    "sale_or_rent": "Sale",
+    "property_type": "Apartment/Flats",
+    "price": "Call for price",
+    "price_per_sqft": null,
+    "construction_status": "Under Construction",
+    "transaction_type": "New",
+    "handover_date": "February 28, 2026",
+    "location": {
+      "city": "Dhaka",
+      "area": "Banasree",
+      "neighborhood": null,
+      "block": null,
+      "road": "Titash Road",
+      "plot": "246/6/ka & 248/7/B",
+      "full_address": "246/6/ka & 248/7/B, Titash Road, Bansree, Dhaka",
+      "location_as_listed": "Banasree , Dhaka"
+    },
+    "specs": {
+      "size_sqft": 1560,
+      "size_as_listed": "1560 sqft",
+      "size_sqft_in_title": 1690,
+      "bedrooms": 3,
+      "bedrooms_as_listed": "03",
+      "bathrooms": 3,
+      "bathrooms_as_listed": "03",
+      "balconies": 4,
+      "parking": "Parking 1",
+      "floor_available_on": null,
+      "total_floors": 13,
+      "furnishing": "Unfurnished",
+      "facing": "West Facing",
+      "land_area": "57.5 katha"
+    },
+    "features": [
+      "Mosque/Prayer Room",
+      "Security",
+      "Lift",
+      "Fire exit",
+      "WASA connection",
+      "Self Water supply",
+      "Cylinder Gas",
+      "Electricity",
+      "Generator",
+      "Telephone line",
+      "CCTV",
+      "Wi-Fi connectivity",
+      "Security Alarm System",
+      "Satellite or cable TV",
+      "Electronic security",
+      "Pool",
+      "Gymnasium",
+      "Garden",
+      "Solar panels",
+      "Guest Parking",
+      "Fire Protection"
+    ],
+    "description": null,
+    "images": [
+      "https://www.bdhousing.com/api/list/listings/100X100/241776/2c0ef8294354dbbeea4459258472de12.jpg",
+      "https://www.bdhousing.com/api/list/listings/564X394/241776/2c0ef8294354dbbeea4459258472de12.jpg"
+    ],
+    "floor_plan_images": [
+      "https://www.bdhousing.com/api/list/floors/100X100/21608/6373a305ff8d47339c34be25e71fd34e.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/21614/b958761c25559172d2239a0200e131fe.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/29081/a23fdee2854f5b5901761f0bbc98c863.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/29082/b9eeb0f6ec5f429c26dc53e807c563aa.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8329/032b2cc936860b03048302d991c3498f.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8330/18e2999891374a475d0687ca9f989d83.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8331/fe5df232cafa4c4e0f1a0294418e5660.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8332/8cda81fc7ad906927144235dda5fdf15.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8333/30e62fddc14c05988b44e7c02788e187.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8334/ae566253288191ce5d879e51dae1d8c3.jpg",
+      "https://www.bdhousing.com/api/list/floors/100X100/8335/ae566253288191ce5d879e51dae1d8c3.jpg"
+    ],
+    "floor_plan_thumbnails": [
+      "https://www.bdhousing.com/api/list/floors/150X150/21608/6373a305ff8d47339c34be25e71fd34e.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/21614/b958761c25559172d2239a0200e131fe.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/29081/a23fdee2854f5b5901761f0bbc98c863.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/29082/b9eeb0f6ec5f429c26dc53e807c563aa.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8329/032b2cc936860b03048302d991c3498f.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8330/18e2999891374a475d0687ca9f989d83.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8331/fe5df232cafa4c4e0f1a0294418e5660.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8332/8cda81fc7ad906927144235dda5fdf15.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8333/30e62fddc14c05988b44e7c02788e187.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8334/ae566253288191ce5d879e51dae1d8c3.jpg",
+      "https://www.bdhousing.com/api/list/floors/150X150/8335/ae566253288191ce5d879e51dae1d8c3.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/embed/tudPa1KrJ8g"
+    ],
+    "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.711535617742!2d90.42725431424287!3d23.757663984585832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ1JzI3LjYiTiA5MMKwMjUnNDYuMCJF!5e0!3m2!1sen!2sbd!4v1625631114236!5m2!1sen!2sbd",
+    "owner": {
+      "company": "Hyperion Design & Development Ltd.",
+      "contact_person": "Md. Ziaul Haque",
+      "phone": "+8801817158095"
+    },
+    "source_url": "https://www.bdhousing.com/details/241776/1690-sqft-3-beds-under-construction-apartment-flats-for-sale-at-banasree",
+    "retrieved_date": "2026-11-08",
+    "data_notes": [
+      "Size conflict on source page: page title and URL slug say 1690 sqft, while Property Summary, meta description and the profile-page card all say 1560 sqft.",
+      "Property Description section is present on the detail page but is empty (no description text was published).",
+      "No \"Floor Avaiable On\" row in the summary table for this listing.",
+      "Floor-plan image IDs 8334 and 8335 point to the identical file (ae566253288191ce5d879e51dae1d8c3.jpg); both kept as listed.",
+      "Shares the same address and project complex (Park View) with listing 248497 (Building -3)."
+    ]
+  }
+]

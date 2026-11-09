@@ -1,0 +1,42 @@
+/* ============================================================
+   HDDL — page additions B1 (about / projects / project-details)
+   Append-only companion to assets/css/style.css.
+   Reuses the same variables, radii, shadows and spacing conventions.
+   Link in templates/head.html AFTER style.css.
+   ============================================================ */
+
+/* Helper used by existing pages (contact) to hide unverified blocks;
+   defined here because style.css does not include it. */
+.hidden-section { display: none !important; }
+
+/* ---- about: compact dark intro strip (extends .hero) ---- */
+.hero.hero-page { padding: clamp(60px, 8vw, 100px) 0 clamp(130px, 15vw, 185px); }
+.hero-page .hero-inner { max-width: 780px; }
+
+/* ---- about: stat band overlapping the intro strip ---- */
+.stat-wrap { position: relative; z-index: 5; margin-top: calc(clamp(105px, 12vw, 140px) * -1); }
+.stat-band { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.stat-item {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-2); padding: 20px 22px; text-align: center;
+}
+.stat-item strong {
+  display: block; font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(1.5rem, 2.6vw, 2rem); color: var(--navy); line-height: 1.15;
+}
+.stat-item span {
+  display: block; margin-top: 6px; font-size: .72rem; font-weight: 800;
+  letter-spacing: .09em; text-transform: uppercase; color: var(--muted);
+}
+
+/* ---- projects: title link + arrow button inside the dark cover card ---- */
+.project-card-body h3 a { color: #fff; }
+.project-card-body h3 a:hover { color: var(--bronze); }
+
+/* ---- responsive (matches style.css breakpoints) ---- */
+@media (max-width: 1100px) {
+  .stat-band { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .stat-band { grid-template-columns: 1fr; }
+}

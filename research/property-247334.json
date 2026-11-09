@@ -1,0 +1,310 @@
+{
+  "_research_note": "Verbatim research record of bdHousing listing 247334, fetched 2026-11-08. All values transcribed exactly as shown on the page (including typos, e.g. 'Floor Avaiable On'). null = not shown on page.",
+  "fetched_on": "2026-11-08",
+  "source": {
+    "url": "https://www.bdhousing.com/details/247334/4-beds-under-construction-apartment-flats-sale-pallabi",
+    "canonical_url": "https://www.bdhousing.com/details/247334/4-beds-under-construction-apartment-flats-sale-pallabi",
+    "page_title_tag": "Under Construction Flat for Sale at Pallabi ",
+    "breadcrumb": "Home / details / 4 beds under construction apartment flats sale pallabi",
+    "h1_title": "2000 sqft, 4 Beds Under Construction Apartment/Flats for Sale at Pallabi",
+    "h1_badge": "Sale",
+    "meta_keywords": "Flat for Sale at Pallabi "
+  },
+  "property_id": "247334",
+  "listing_type": "Sale",
+  "price": {
+    "display_text": "Call for price",
+    "numeric_amount": null,
+    "currency": null,
+    "format_note": "No numeric price shown anywhere on the details page; price box reads exactly 'Call for price'."
+  },
+  "property_name": "Hyperion Chayapallab",
+  "property_type": "Apartment/Flats",
+  "transaction_type": "New",
+  "construction_status": "Under Construction",
+  "location": {
+    "header_display": "Pallabi, Dhaka.",
+    "summary_field": "Pallabi , Dhaka",
+    "city": "Dhaka",
+    "area": "Pallabi",
+    "block": null,
+    "road": null,
+    "street_address": null,
+    "address_note": "No street address is visible on the page. A commented-out (hidden) line in the HTML source contains: 'plot : 05, road :08, main pallabi. Near juvenile English medium school pallabi.' See masked_hidden_data.",
+    "map_embed": null,
+    "coordinates": null,
+    "map_note": "No map embed, iframe, or lat/lng coordinates found anywhere in the page source."
+  },
+  "size_sqft": 2000,
+  "size_display": "2000 Sq.ft / 2000 sqft",
+  "bedrooms": "04",
+  "bathrooms": "04",
+  "balconies": "3",
+  "parking": "Parking 1",
+  "parking_count": 1,
+  "garages_label": "Garages: Parking 1",
+  "floors_available": "4th Floor, 6th Floor",
+  "floors_available_label_as_shown": "Floor Avaiable On : 4th Floor, 6th Floor",
+  "total_floors": null,
+  "furnishing": "Unfurnished",
+  "facing": "N/A",
+  "land_area": "N/A",
+  "handover_date": null,
+  "handover_date_note": "Field not displayed. A commented-out summary row in the HTML source reads 'Handover Date : December 30, 2026', and the meta description also says 'handover on December 30, 2026'. See masked_hidden_data.",
+  "description": "",
+  "description_note": "The 'Property Description' section heading is present but the paragraph body is EMPTY in the delivered HTML (contains only an empty HTML comment: '<!--  -->'). There is no description text on the page.",
+  "meta_description_verbatim": "Hyperion Chayapallab developed by Hyperion Design & Development Ltd.  2000 sqft 4 bed Under Construction Apartment/Flats for sale on 7,9 handover on December 30, 2026 at Pallabi view details bdHousing",
+  "meta_description_note": "The meta/og:description mentions floors '7,9' for handover December 30, 2026, which conflicts with the visible summary field '4th Floor, 6th Floor'. Transcribed as-is.",
+  "features": [
+    "Security",
+    "Lift",
+    "Fire exit",
+    "WASA connection",
+    "Self Water supply",
+    "Hot water",
+    "Titas Gas",
+    "Electricity",
+    "Generator",
+    "Telephone line",
+    "Intercom",
+    "CCTV",
+    "Wi-Fi connectivity",
+    "Security Alarm System",
+    "Electronic security",
+    "Solar panels",
+    "Servant Toilet",
+    "Fire Protection"
+  ],
+  "features_count": 18,
+  "media": {
+    "gallery_photos": [
+      {
+        "position": 1,
+        "role": "main slider image",
+        "url": "https://www.bdhousing.com/api/list/listings/100X100/247334/2240d37b5367c77862abe54dc2b07cab.jpeg",
+        "alt_title": "Hyperion Chayapallab, Apartment/Flats at Pallabi",
+        "thumbnail_url": "https://www.bdhousing.com/api/thum/listings/74X74/247334/2240d37b5367c77862abe54dc2b07cab.jpeg"
+      },
+      {
+        "position": 2,
+        "role": "slider image (anchor links to floors/100X100/34063 variant)",
+        "url": "https://www.bdhousing.com/api/list/images/100X100/34063/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+        "anchor_href": "https://www.bdhousing.com/api/list/floors/100X100/34063/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+        "alt_title": "Hyperion Chayapallab, Apartment/Flats at Pallabi",
+        "thumbnail_url": "https://www.bdhousing.com/api/thum/images/74X74/34063/2a4666a088fe2af6aa36d5646d6b13af.jpg"
+      },
+      {
+        "position": 3,
+        "role": "slider image (anchor links to floors/100X100/34064 variant)",
+        "url": "https://www.bdhousing.com/api/list/images/100X100/34064/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg",
+        "anchor_href": "https://www.bdhousing.com/api/list/floors/100X100/34064/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg",
+        "alt_title": "Hyperion Chayapallab, Apartment/Flats at Pallabi",
+        "thumbnail_url": "https://www.bdhousing.com/api/thum/images/74X74/34064/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg"
+      }
+    ],
+    "gallery_photo_count": 3,
+    "floor_plans": [
+      {
+        "position": 1,
+        "display_url": "https://www.bdhousing.com/api/list/floors/150X150/12531/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+        "link_url": "https://www.bdhousing.com/api/list/floors/100X100/12531/2a4666a088fe2af6aa36d5646d6b13af.jpg",
+        "alt": "Floors Images",
+        "link_title": "Location Images"
+      },
+      {
+        "position": 2,
+        "display_url": "https://www.bdhousing.com/api/list/floors/150X150/12532/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg",
+        "link_url": "https://www.bdhousing.com/api/list/floors/100X100/12532/b6cac0db1535b9ed1ed0b9fb5509afd1.jpg",
+        "alt": "Floors Images",
+        "link_title": "Location Images"
+      }
+    ],
+    "floor_plan_count": 2,
+    "og_image": {
+      "url": "https://www.bdhousing.com/api/list/listings/100X100/247334/2240d37b5367c77862abe54dc2b07cab.jpeg",
+      "og_image_width_declared": "600",
+      "og_image_height_declared": "315",
+      "note": "og:image is the 100X100 listing thumbnail even though og:image:width/height declare 600x315."
+    },
+    "videos": [],
+    "video_note": "No property video on the page; the only YouTube references are site-wide footer/social links.",
+    "ads_on_page_not_property_media": [
+      {
+        "url": "https://www.bdhousing.com/api/list/advertisements/image/54/809fa0db0e0ff4a057a458afaa2217de.jpg",
+        "alt": "Ryan",
+        "note": "Top-of-page ad banner slot rendered by site ad rotation, not a property photo."
+      },
+      {
+        "url": "https://www.bdhousing.com/api/list/advertisements/image/27/cd6896c7e69785857715d6da42fd277b.jpeg",
+        "alt": "Imagine Properties Ltd",
+        "note": "Sidebar advertisement (350x350), not property media. The web-reader render showed a variant hash (6d8229f...) for the same slot."
+      }
+    ]
+  },
+  "contact": {
+    "owner_company": "Hyperion Design & Development Ltd.",
+    "owner_company_role": "Builder",
+    "owner_user_id": "1230",
+    "contact_person": "Md. Ziaul Haque",
+    "phone_masked_call_box": "+8801817158xxx",
+    "phone_masked_sidebar": "01817158 xxx",
+    "phone_show_button_label": "Click to show phone number",
+    "phone_full_in_source": "+8801817158095",
+    "phone_full_note": "The complete number +8801817158095 appears in the delivered HTML inside the 'Property Owner Details' modal and in tel: links (e.g. href=\"tel:'+8801817158095'\"), while the always-visible displays are masked.",
+    "get_phone_button": {
+      "label": "Get Phone No.",
+      "data_adv": "247334",
+      "data_count": "117",
+      "note": "data-count=117 is attached to the Get Phone No. / Call Owner / Click to show phone number buttons (likely a view/click counter)."
+    },
+    "contact_flow": "Contact requires a name/email/phone form plus 6-digit SMS/email verification code before owner details are revealed.",
+    "sms_verification_image": "https://www.bdhousing.com/img/sms-verification.png"
+  },
+  "seller": {
+    "profile_url": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+    "profile_link_texts": [
+      "view more properties of this seller...",
+      "More properties..."
+    ],
+    "logo_url": "https://www.bdhousing.com/api/Common/getDeveloperLogo/users/150X150/1230/8d6a07a8cdcd2710256d6b7427fa6207.jpg",
+    "user_image_url": "https://www.bdhousing.com/api/Common/getUser/users/image/1230/8d6a07a8cdcd2710256d6b7427fa6207.jpg",
+    "property_by_hidden": "Property By: Hyperion Design & Development Ltd. (Builder) — present in HTML but inside a div with style=\"display: none;\" (hidden on the rendered page)."
+  },
+  "company_profile_presentation": {
+    "profile_page_title": "Hyperion Design & Development Ltd in bangladesh",
+    "profile_url": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+    "this_property_card": {
+      "title": "Hyperion Chayapallab Sale",
+      "type": "Apartment/Flats",
+      "location": "Pallabi, Dhaka",
+      "bedrooms": "04",
+      "baths": "04",
+      "size_sqft": "2000",
+      "price_displayed": "Call For Price",
+      "thumbnail_url": "https://www.bdhousing.com/api/list/listings/564X394/247334/2240d37b5367c77862abe54dc2b07cab.jpeg"
+    },
+    "profile_og_image": "https://www.bdhousing.com/uploads/users/12308d6a07a8cdcd2710256d6b7427fa6207.jpg",
+    "other_properties_on_profile_page_1": [
+      {
+        "id_hint": "247442",
+        "name": "Hyperion pride",
+        "type": "Apartment/Flats",
+        "location": "Pallabi, Dhaka",
+        "beds": "03",
+        "baths": "03",
+        "size_sqft": "1350",
+        "price": "TK. 1.46 Cr.",
+        "thumbnail_url": "https://www.bdhousing.com/api/list/listings/564X394/247442/2a0b76bfd95ef6528d8dfdf4fee17e4f.jpg"
+      },
+      {
+        "id_hint": "248497",
+        "name": "Hyperion Park View Building -3",
+        "type": "Apartment/Flats",
+        "location": "Banasree, Dhaka",
+        "beds": "03",
+        "baths": "03",
+        "size_sqft": "1695",
+        "price": "Call For Price",
+        "thumbnail_url": "https://www.bdhousing.com/api/list/listings/564X394/248497/a77488e9b2bce86b87bcc2fcdaa63bd5.jpg"
+      },
+      {
+        "id_hint": "243796",
+        "name": "Hyperion Mozibur Tower",
+        "type": "Apartment/Flats",
+        "location": "Banasree, Dhaka",
+        "beds": "03",
+        "baths": "03",
+        "size_sqft": "1500",
+        "price": "Call For Price",
+        "thumbnail_url": "https://www.bdhousing.com/api/list/listings/564X394/243796/ed7d949f70f29fb2b5845b933d73803f.jpg"
+      },
+      {
+        "id_hint": "241776",
+        "name": "Hyperion Park View Building -2",
+        "type": "Apartment/Flats",
+        "location": "Banasree, Dhaka",
+        "beds": "03",
+        "baths": "03",
+        "size_sqft": "1560",
+        "price": "Call For Price",
+        "thumbnail_url": "https://www.bdhousing.com/api/list/listings/564X394/241776/2c0ef8294354dbbeea4459258472de12.jpg"
+      }
+    ],
+    "profile_note": "Hyperion Chayapallab is the 4th card on the profile page; its price is shown as 'Call For Price' there too. The profile page confirms one numeric price on the whole profile (Hyperion pride, TK. 1.46 Cr.), not for this listing."
+  },
+  "structured_data_on_page": {
+    "json_ld": {
+      "@type": "Organization",
+      "scope": "site-wide bdHousing schema, not property-specific",
+      "contactPoint_telephone": "+8801730583483",
+      "contactPoint_email": "info@bdHousing.com"
+    }
+  },
+  "similar_properties_section": [
+    "3 Beds Under Construction Flats for Sale at Pallabi (Hyperion pride) - Call for price",
+    "2000 sqft, 4 Beds Under Construction Apartment/Flats for Sale at Pallabi (Hyperion Chayapallab, this listing) - Call for price",
+    "\"From Land to Lifestyle — Create Your Home with Us!\"i (Novonil Royal Palace, Land Sharing Flat) - Call for price",
+    "1230 sqft, 3 Beds Ready Apartment/Flats for Sale at Pallabi (Zenith Kunjo) - Call for price",
+    "1312 sqft, 3 Beds Almost Ready Land Sharing Flat for Sale at Pallabi (Rangdhonu Tower) - Call for price",
+    "1800 sqft, 3 Beds Ready Apartment/Flats for Sale at Pallabi, Mirpur-12 (Rupayan P&F Square) - Call for price",
+    "1225 sqft, 3 Beds Apartment/Flats for Rent at Pallabi - Call for price",
+    "1585 sqft, 3 Beds Under Construction Apartment/Flats for Sale at Pallabi near metro station (DOM-INNO VIVERE) - Call for price"
+  ],
+  "fetch_metadata": {
+    "http_server": "Apache/2.4.6 (CentOS) PHP/7.3.33 (CakePHP app)",
+    "last_modified_header": null,
+    "cache_control": "no-store, no-cache, must-revalidate, max-age=31449600",
+    "reader_publishedTime": "2024-01-29T00:00:00+00:00",
+    "reader_publishedTime_note": "Reported by the reader tool's metadata extraction; no corresponding date string was found in the page HTML and no Last-Modified header is sent. Treat as unverified.",
+    "json_ld_property_schema": null,
+    "json_ld_note": "Only a site-wide Organization JSON-LD block exists; there is no property-level (Product/Residence) structured data."
+  },
+  "masked_hidden_data": {
+    "commented_out_address": {
+      "value": "plot : 05, road :08, main pallabi. Near juvenile English medium school pallabi.",
+      "where": "Inside an HTML comment in the Property Summary list: <!--li> ... <label>Address: </label> ... </li-->. Not rendered to visitors.",
+      "label_in_source": "Address"
+    },
+    "commented_out_handover_date": {
+      "value": "December 30, 2026",
+      "where": "Inside an HTML comment in the Property Summary list: <!--li> ... <label>Handover Date :</label> ... </li-->. Not rendered to visitors. Also echoed in the meta/og:description ('handover on December 30, 2026').",
+      "label_in_source": "Handover Date"
+    },
+    "meta_only_floors": {
+      "value": "7,9",
+      "where": "meta description / og:description phrase 'for sale on 7,9 handover on December 30, 2026'. Conflicts with visible 'Floor Avaiable On : 4th Floor, 6th Floor'."
+    },
+    "masked_phone_displays": [
+      {
+        "exact_string": "+8801817158xxx",
+        "location": "call-owner box next to 'Call Owner' button"
+      },
+      {
+        "exact_string": "01817158 xxx",
+        "location": "sidebar Property Owner Details (markup splits it as '01817158' + 'xxx'); accompanied by button 'Click to show phone number'"
+      }
+    ],
+    "full_phone_in_source": {
+      "value": "+8801817158095",
+      "location": "'Property Owner Details' modal (with contact person Md. Ziaul Haque) and tel: href attributes; present in raw HTML without any interaction."
+    },
+    "hidden_property_by_line": {
+      "value": "Hyperion Design & Development Ltd. (Builder)",
+      "where": "div style=\"display: none;\" around 'Property By:' paragraph."
+    },
+    "empty_description": {
+      "value": "",
+      "where": "'Property Description' section paragraph contains only '<!--  -->' — the description was left blank by the advertiser."
+    },
+    "not_shown_on_page_fields": [
+      "numeric price (only 'Call for price')",
+      "total floors in building",
+      "facing (shown as 'N/A')",
+      "land area (shown as 'N/A')",
+      "block/road in visible location (only 'Pallabi, Dhaka')",
+      "map embed / coordinates (none present)",
+      "posting/update date (not displayed; no Last-Modified header)",
+      "view counter (not displayed; only data-count=117 on contact buttons)"
+    ]
+  }
+}

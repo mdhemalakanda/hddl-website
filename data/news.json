@@ -1,0 +1,19 @@
+{
+  "_note": "Verified items only (research/facebook-content.md, checked 2026-11-08). Note: scripts/build.mjs currently reads this file but does not consume its contents; the news page HTML is composed separately. Do not add items that cannot be traced to a research source.",
+  "items": [
+    {
+      "date": "2026-08-04",
+      "title": "New photo album posted on Facebook",
+      "summary": "A 9-photo album post was published on the company's Facebook page (same upload batch as the page's photos grid).",
+      "source": "https://www.facebook.com/hddlbd/posts/1536959208445710",
+      "reference": "research/facebook-content.md, section 2 item 1"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Ready apartments promoted at Banasree (1,560-1,695 sq ft)",
+      "summary": "The company posted on Facebook: \"Hyperion Condominium 100 % ready flat for sale @ 1560-1695sft at banasree. For details please call to Hyperion Design & Development Ltd. : 01701287501\". A reel posted the same day had ~1K views; a companion 3:03 video posted June 13 had 394 views.",
+      "source": "https://www.facebook.com/hddlbd/posts/1536959208445710",
+      "reference": "research/facebook-content.md, section 2 items 1, 3, 4"
+    }
+  ]
+}

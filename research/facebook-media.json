@@ -1,0 +1,217 @@
+{
+  "_readme": "Media URLs captured on 2026-11-08 from public logged-out Facebook pages of Hyperion Design & Development Ltd. (https://www.facebook.com/hddlbd/, page ID 100063949368562). Facebook CDN (fbcdn.net) URLs are SIGNED and EXPIRE: every oe= parameter captured here decodes to approximately 2026-11-12. After expiry, URLs return an error; the stable identifiers (file IDs) persist but need a fresh signature. bdhousing.com and hddlbd.com URLs are NOT signed and should remain stable.",
+  "date_checked": "2026-11-08",
+  "facebook_page": {
+    "name": "Hyperion Design & Development Ltd.",
+    "url": "https://www.facebook.com/hddlbd/",
+    "page_id": "100063949368562",
+    "followers": 171
+  },
+  "media": [
+    {
+      "type": "profile_picture",
+      "label": "Page profile picture (og:image), 320x320 rendition",
+      "url": "https://scontent.ffez2-2.fna.fbcdn.net/v/t39.30808-1/302044249_472148258260149_9184621476511570089_n.jpg?stp=dst-jpg_tt6&cstp=mx320x320&ctp=s320x320&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yz9_C0_TUW4Q7kNvwFoncRm&_nc_oc=Adp4NiRJcXCLZKu1lLMFpQeAYay6w4sj1yHd_nHwNDUYSsINCpiFlfgWt3xyEwgl3ls&_nc_zt=24&_nc_ht=scontent.ffez2-2.fna&_nc_gid=o4mdqaVIfzu_39NBv8OWgA&_nc_ss=7b289&oh=00_AQRyoxqx4QLhFGnqxxDRzXy085WWny8xFM3nmIWgIobuPQ&oe=6AF64805",
+      "stable_file_id": "302044249_472148258260149_9184621476511570089_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/about",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "cover_photo",
+      "label": "Page cover photo, 820x312 rendition (classic Facebook cover size)",
+      "url": "https://scontent.ffez1-1.fna.fbcdn.net/v/t39.30808-6/481255436_1100145868793715_4004077990563989079_n.jpg?stp=dst-jpg_tt6&cstp=mx820x312&ctp=s820x312&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=hDtraR0nfPwQ7kNvwF7MrPt&_nc_oc=AdpEubE13VvaXuYE6T5caX21c5E4uX3iyh-JOk8S29HbvBvOpUPeGI1ONb_DHJ9IXKk&_nc_zt=23&_nc_ht=scontent.ffez1-1.fna&_nc_gid=rNQN9xMLMOuupy6r4MaFfw&_nc_ss=7b289&oh=00_AQR-srotChLofITF-Gsp1eQId7rLccPJq0eBU3ZA_p3Yww&oe=6AF62EA9",
+      "stable_file_id": "481255436_1100145868793715_4004077990563989079_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/about",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 1 (square crop, 2024 upload batch)",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/722431418_1491673099640988_8248262051232036359_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=XCA0_jPitZ0Q7kNvwEKsk9q&_nc_oc=Adod26XzR2JS_m2Oh0LceGXqDf0LFDUdnAaEfPFgccdi6rM9qykMdzMJUX3fYj0lgmg&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQRVqXwobx8OguiEL-hJe1ZDrG1gKTpxBwzBOuM9DFminQ&oe=6AF61D65",
+      "stable_file_id": "722431418_1491673099640988_8248262051232036359_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 2",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/724068359_1491672886307676_1301277714853059523_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=1XOywiIIu84Q7kNvwG0x8Y9&_nc_oc=AdoR5A3mFFRCVjT7VU3eus6drIoV8DwyNeqfv4mEk83s_2Q8jvqjlyfejcA25TLVJKs&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQQl38TinR8bXW1HyPLBWIdRYRGpq7t4BcpEkdxhEJMzDw&oe=6AF63D0D",
+      "stable_file_id": "724068359_1491672886307676_1301277714853059523_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 3",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/721465170_1491672682974363_3448047601656111407_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=47L_1khQeu4Q7kNvwGo31w_&_nc_oc=AdpOVIHlCcWKs6iMfX7msXzdZZqp_C4BNLpzvOl0iQ_LswT-AWYPZxQVHkEvuC1hUjU&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQSTjvE7kyQyH4-oyg3XvGvTD4vmGXRZNrUqbauKTxS0yw&oe=6AF61674",
+      "stable_file_id": "721465170_1491672682974363_3448047601656111407_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 4",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/724613819_1491672519641046_465101544811913807_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=G_DL2nAbMW4Q7kNvwFij5Y-&_nc_oc=AdoJSUcAqGizV-GPaf0WRPM0y9_C_OWn02Zx81wcYaYrXcn_g5evJnjWgLyWbt_46xQ&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQRVv9ls1njU3ooI7v-Vpe1qAo4fu2HBf_r3wSYtW8ZPtw&oe=6AF61DDF",
+      "stable_file_id": "724613819_1491672519641046_465101544811913807_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 5",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/723999836_1491672452974386_3663555351029357065_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=igy-RNRoH0MQ7kNvwFgBJIZ&_nc_oc=AdpGQgOTAc6eHSo0Wm7nE7lRrzJPlpnoBU7ol9noUuNYutUBDaNVdoL8Rwuhy2-4IY4&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQTwdQPpgMy1fN_Btf-49BaJdzWVn0ISYIlzbRr5dY1DyA&oe=6AF62063",
+      "stable_file_id": "723999836_1491672452974386_3663555351029357065_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 6",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/722215916_1491672122974419_2219216254645548090_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=j9P-rbnFO7kQ7kNvwElCCz5&_nc_oc=Adp9tFViUqdJCkOrDy4YvPu7q0tN7avLEN8d9mIynjSrZLc7T4n8Bwq2ySjnHzh88AM&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQRBtS-UrwcwpZzncL_nmeFvPIa_9S0C-yeoB_rLff0UWw&oe=6AF61DB9",
+      "stable_file_id": "722215916_1491672122974419_2219216254645548090_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 7 (portrait crop)",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/724437129_1491671802974451_3490590514134019926_n.jpg?stp=c111.0.758.758a_dst-jpg_tt6&cstp=mx758x758&ctp=s206x206&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=U_zmOd2k0f8Q7kNvwF5xk_H&_nc_oc=AdrMC7du4cTsI7bGOxSvG4bavrVg3mIRy-bO5_XeE9TYDCaOgyKiE98_Cg2uDkkdRY0&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQQnJ9rwV3tcDCkYAtYpv2GSTs7t--NB3g85J-bzYI7uyQ&oe=6AF648BA",
+      "stable_file_id": "724437129_1491671802974451_3490590514134019926_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "album_photo",
+      "label": "Photos grid item 8 (captured from page preload, same album)",
+      "url": "https://scontent.fuio5-1.fna.fbcdn.net/v/t39.30808-6/724382630_1491673022974329_1815602483789679659_n.jpg?stp=c0.132.1200.1200a_dst-jpg_tt6&cstp=mx1200x1200&ctp=s206x206&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=714c7a&_nc_ohc=EnwgN_nUONcQ7kNvwEhopte&_nc_oc=AdokODSAtFvpD60ZsT7Uj_XktY4UsJoCG0NG7d58wn1XIv3zLL4INUkJkqo228RFYjI&_nc_zt=23&_nc_ht=scontent.fuio5-1.fna&_nc_gid=_g_YxcD8ojh53_Sd1HneOQ&_nc_ss=7b289&oh=00_AQT_F5tvt2tV67x3QJ73LWn4scXPCQIww-88fMdopyaYaA&oe=6AF63D01",
+      "stable_file_id": "724382630_1491673022974329_1815602483789679659_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/photos",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "video_thumbnail",
+      "label": "Reel 2764481050602398 (posted 2026-06-14, ~1K views)",
+      "url": "https://scontent.fadj1-1.fna.fbcdn.net/v/t15.5256-10/719740254_869573518978481_1864991916397987591_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ce42&_nc_ohc=9tjsdQLVJN0Q7kNvwGPHXsE&_nc_oc=AdpYTuq_6lEUN_57DrpKxs0hXTYoDeef8T0YRLx5oJ9fEFRKMPVkDoGxjVSUtmoegFI&_nc_zt=23&_nc_ht=scontent.fadj1-1.fna&_nc_gid=0xhM6-0dVTw7mQsx0O3VcQ&_nc_ss=7b289&oh=00_AQRuVV7sdh4-xOHP7i0THfDRW5FUPXCzXjtAq2r6ckKN1w&oe=6AF61758",
+      "stable_file_id": "719740254_869573518978481_1864991916397987591_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/videos/2764481050602398",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "video_thumbnail",
+      "label": "Video 'Hyperion Design & Development Ltd.'s video' (3:03, 312 views, June 14)",
+      "url": "https://scontent.famm12-1.fna.fbcdn.net/v/t15.5256-10/724276042_1022782400283212_9138637790435683224_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s640x640&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=ycRetczlNVgQ7kNvwGTZobw&_nc_oc=AdqwGxcjpb7kTT-bQK3fLKmK6rJrTBwRySnd5BG9s5GBk4MK9q9cdIDWIghoVHdzZyw&_nc_zt=23&_nc_ht=scontent.famm12-1.fna&_nc_gid=0xhM6-0dVTw7mQsx0O3VcQ&_nc_ss=7b289&oh=00_AQQIENDdtFDjNj9nymiOD80FWbDh16smAEHxbGiJwVxhMQ&oe=6AF61ED8",
+      "stable_file_id": "724276042_1022782400283212_9138637790435683224_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/videos/2764481050602398",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "video_thumbnail",
+      "label": "Video 'Hyperion 100% ready flat for sale @ 1695-1560sft at banasree. For details please call us : 01701287501.' (3:03, 394 views, June 13)",
+      "url": "https://scontent.famm2-3.fna.fbcdn.net/v/t15.5256-10/722035168_1548300850105022_5645773720887346421_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s640x640&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=BZl0GGeCUNMQ7kNvwG_K00z&_nc_oc=Adq92CDf-yTOU-9sAVqiir7J8bR1Kn8mQkkQ-DBOQIcQPSZkhLX9-dWOiahug6mR9x8&_nc_zt=23&_nc_ht=scontent.famm2-3.fna&_nc_gid=0xhM6-0dVTw7mQsx0O3VcQ&_nc_ss=7b289&oh=00_AQQ_aPNKMSSX2dPb-6ywpdg-wAwDYj1JxbvpjiMfu30XmA&oe=6AF61594",
+      "stable_file_id": "722035168_1548300850105022_5645773720887346421_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/videos/2764481050602398",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "post_image",
+      "label": "og:image of post 1503103181831313 (Hyperion Park View, Banasree album)",
+      "url": "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/720408724_1488084156666549_4999904600729123966_n.jpg?stp=dst-jpg_tt6&cstp=mx1051x793&ctp=p600x600&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=MDpCUVUsuTMQ7kNvwFmCoPn&_nc_oc=AdqDy5RkNoJjYjK76KN8ulT_hI0po7V1_u4RV_sQznFaK4dOEWi92KwfFub1EP96yOk&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=YoigR-Xc2E6pGiTuDM883Q&_nc_ss=7b289&oh=00_AQTMZctbw_9TePBM7dkSaTR9IkvO39lv3HAk0D9Umt7eVQ&oe=6AF63C3B",
+      "stable_file_id": "720408724_1488084156666549_4999904600729123966_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/posts/1695-1560-sq-ftf-100-exclusive-ready-apartment-available-for-sale-in-hyperion-pa/1503103181831313",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "post_image",
+      "label": "Post 1503103181831313 album image (from page preload)",
+      "url": "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/720602868_1488084546666510_7876212643283326404_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x845&ctp=s590x590&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=USqUIir3NW0Q7kNvwG83oIN&_nc_oc=Ado--1hGnLyWtTQ8iWjYYAC578ew-u_eUv-3DsjRbBVQNzYuA3CKUwRUK4YC6Bku6Og&_nc_zt=23&_nc_ht=scontent.fhan5-2.fna&_nc_gid=G6ub6Qf3zO0jVPdBVheOsQ&_nc_ss=7b289&oh=00_AQS2OYVz5oGCcfIv7AmJtfC9GRSqLwKkm-b2usicd_KrQQ&oe=6AF63103",
+      "stable_file_id": "720602868_1488084546666510_7876212643283326404_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/posts/1695-1560-sq-ftf-100-exclusive-ready-apartment-available-for-sale-in-hyperion-pa/1503103181831313",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "post_image",
+      "label": "Post 1503103181831313 album image (from page preload)",
+      "url": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/719351988_1488084439999854_1172626248581636736_n.jpg?stp=dst-jpg_tt6&cstp=mx1063x797&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VI9dHfz9V2QQ7kNvwHv20Gd&_nc_oc=AdqEOi-QKq5CEWjRGy8mo-dlb3zRyW7oA77dGBl_Kp6QHOxZjfWtspvn_sJT8TLQXnw&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=G6ub6Qf3zO0jVPdBVheOsQ&_nc_ss=7b289&oh=00_AQS-ycm7auJogL-NUMD11WlESclMlsuHM13IuKl-tOiFFw&oe=6AF622FB",
+      "stable_file_id": "719351988_1488084439999854_1172626248581636736_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/posts/1695-1560-sq-ftf-100-exclusive-ready-apartment-available-for-sale-in-hyperion-pa/1503103181831313",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "post_image",
+      "label": "Post 1503103181831313 album image (from page preload)",
+      "url": "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/720553283_1488084456666519_3586844472273984707_n.jpg?stp=dst-jpg_tt6&cstp=mx1056x777&ctp=s590x590&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7ggeSyEXsVMQ7kNvwHeNnAv&_nc_oc=AdpbBgRrI2UgsarZ9UhFwkzi0_u5nrma9J-ODUW4Q-Qc1oyfpnd73_Qu-KEgYVgJW4&_nc_ss=7b289",
+      "stable_file_id": "720553283_1488084456666519_3586844472273984707_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/posts/1695-1560-sq-ftf-100-exclusive-ready-apartment-available-for-sale-in-hyperion-pa/1503103181831313",
+      "expires": "~2026-11-12",
+      "_note": "URL transcribed from preload; may be missing trailing oh=/oe= params — treat file ID as the canonical identifier."
+    },
+    {
+      "type": "post_image",
+      "label": "Post 1503103181831313 album image (from page preload)",
+      "url": "https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/719919238_1488084496666515_8607268141076279842_n.jpg?stp=dst-jpg_tt6&cstp=mx1056x796&ctp=s590x590&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vyDdHymgYYsQ7kNvwHYNHB2&_nc_oc=Adry-O5aflrOlLwREmSs8wiVPxy5GLO4xUzBqyRU-b5pqE9jbXgUJE1VUurweRqMMic&_nc_zt=23&_nc_ht=scontent.fhan5-2.fna&_nc_gid=G6ub6Qf3zO0jVPdBVheOsQ&_nc_ss=7b289&oh=00_AQRYMo_yHhiUrbkfGGkFFPtFeDBsPyp0_EMbYZO_svTOnw&oe=6AF61D9B",
+      "stable_file_id": "719919238_1488084496666515_8607268141076279842_n.jpg",
+      "source_page": "https://www.facebook.com/hddlbd/posts/1695-1560-sq-ftf-100-exclusive-ready-apartment-available-for-sale-in-hyperion-pa/1503103181831313",
+      "expires": "~2026-11-12"
+    },
+    {
+      "type": "developer_logo",
+      "label": "bdhousing developer logo (HDDL) — stable URL, no signature",
+      "url": "https://www.bdhousing.com/api/Common/getDeveloperLogo/users/150X150/1230/8d6a07a8cdcd2710256d6b7427fa6207.jpg",
+      "variants": [
+        "https://www.bdhousing.com/api/Common/getDeveloperLogo/users/200X200/1230/8d6a07a8cdcd2710256d6b7427fa6207.jpg",
+        "https://www.bdhousing.com/uploads/users/12308d6a07a8cdcd2710256d6b7427fa6207.jpg"
+      ],
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "developer_banner",
+      "label": "bdhousing developer profile banner — stable URL, no signature",
+      "url": "https://www.bdhousing.com/api/Common/getUserBanner/users/1600X470/1230/bb7771819a4e3dbea9fee0d316c8d79b.jpg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "project_photo",
+      "label": "bdhousing listing: Hyperion pride (Pallabi, 3bd, 1350 sqft)",
+      "url": "https://www.bdhousing.com/api/list/listings/564X394/247442/2a0b76bfd95ef6528d8dfdf4fee17e4f.jpg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "project_photo",
+      "label": "bdhousing listing: Hyperion Park View Building -3 (Banasree, 3bd, 1695 sqft, TK 1.46 Cr)",
+      "url": "https://www.bdhousing.com/api/list/listings/564X394/248497/a77488e9b2bce86b87bcc2fcdaa63bd5.jpg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "project_photo",
+      "label": "bdhousing listing: Hyperion Mozibur Tower (Banasree, 3bd, 1500 sqft)",
+      "url": "https://www.bdhousing.com/api/list/listings/564X394/243796/ed7d949f70f29fb2b5845b933d73803f.jpg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "project_photo",
+      "label": "bdhousing listing: Hyperion Chayapallab (Pallabi, 4bd, 2000 sqft)",
+      "url": "https://www.bdhousing.com/api/list/listings/564X394/247334/2240d37b5367c77862abe54dc2b07cab.jpeg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "project_photo",
+      "label": "bdhousing listing: Hyperion Park View Building -2 (Banasree, 3bd, 1560 sqft)",
+      "url": "https://www.bdhousing.com/api/list/listings/564X394/241776/2c0ef8294354dbbeea4459258472de12.jpg",
+      "source_page": "https://www.bdhousing.com/Hyperion-Design-DevelopmentLtd",
+      "expires": "not signed"
+    },
+    {
+      "type": "logo_unofficial",
+      "label": "Logo used on hddl-real-estate.vercel.app — UNOFFICIAL demo site (not confirmed as company property; likely an earlier design demo). Do not assume it is official branding.",
+      "url": "https://hddl-real-estate.vercel.app/images/hddl-logo.png",
+      "source_page": "https://hddl-real-estate.vercel.app",
+      "expires": "not signed"
+    }
+  ]
+}

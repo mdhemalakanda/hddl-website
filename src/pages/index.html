@@ -1,0 +1,169 @@
+<!-- ===== Hero ===== -->
+<section class="hero" id="main">
+  <div class="container">
+    <div class="hero-inner">
+      <span class="hero-kicker">REHAB member · Est. 2000</span>
+      <h1>Quality apartments in <em>Dhaka</em>, by Hyperion.</h1>
+      <p>Hyperion Design &amp; Development Ltd. builds superior quality residential buildings in prime locations of Dhaka city. Explore our available apartments in Pallabi and Banasree.</p>
+      <div class="hero-actions">
+        <a class="btn btn-accent" href="properties.html">Browse Apartments</a>
+        <a class="btn btn-light-outline" href="projects.html">Our Projects</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-stats" aria-label="Company highlights as stated by the developer">
+    <div class="hero-stat"><strong>2000</strong><span>Established</span></div>
+    <div class="hero-stat"><strong>102</strong><span>Buildings completed</span></div>
+    <div class="hero-stat"><strong>21</strong><span>Ongoing projects</span></div>
+  </div>
+</section>
+
+<!-- ===== Search ===== -->
+<div class="search-wrap">
+  <div class="container">
+    <form class="search-card" action="properties.html" method="get" aria-label="Property search">
+      <h2>Find your apartment</h2>
+      <div class="search-grid">
+        <div class="field">
+          <label for="hsKeyword">Keyword</label>
+          <input id="hsKeyword" name="q" type="search" placeholder="Project, area, size…">
+        </div>
+        <div class="field">
+          <label for="hsLocation">Location</label>
+          <select id="hsLocation" name="location">
+            <option value="">Any location</option>
+            <option value="Pallabi">Pallabi</option>
+            <option value="Banasree">Banasree</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hsBeds">Bedrooms</label>
+          <select id="hsBeds" name="beds">
+            <option value="">Any</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hsStatus">Status</label>
+          <select id="hsStatus" name="status">
+            <option value="">Any status</option>
+            <option value="Under Construction">Under Construction</option>
+            <option value="Ready">Ready</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="hsSize">Min size (sqft)</label>
+          <select id="hsSize" name="sizeMin">
+            <option value="">Any</option>
+            <option value="1300">1300+</option>
+            <option value="1500">1500+</option>
+            <option value="1700">1700+</option>
+            <option value="2000">2000+</option>
+          </select>
+        </div>
+        <button class="btn btn-dark" type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ===== Featured apartments ===== -->
+<section class="section" id="featured">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Featured</span>
+      <h2>Featured Apartments</h2>
+      <p class="lead">Hand-picked apartments from our current listings — verified details from the developer's published property information.</p>
+    </div>
+    <div class="prop-grid" data-props="featured"></div>
+    <p style="margin-top: 30px;"><a class="btn btn-outline" href="properties.html">View all apartments</a></p>
+  </div>
+</section>
+
+<!-- ===== Why Hyperion ===== -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Why Hyperion</span>
+      <h2>Why Choose Hyperion</h2>
+      <p class="lead">Facts the developer has published about its track record and memberships.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="value-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-3.5 8-10V5l-8-3-8 3v7c0 6.5 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>REHAB Member</h3>
+        <p>An active member of the Real Estate &amp; Housing Association of Bangladesh (REHAB).</p>
+      </div>
+      <div class="value-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15 9-2 5-5 2 2-5 5-2Z"/></svg>
+        <h3>Design &amp; Development</h3>
+        <p>Design and development under one roof — from plan to a finished, handed-over building.</p>
+      </div>
+      <div class="value-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3>Prime Dhaka Locations</h3>
+        <p>Residential buildings in prime areas of the city — currently Pallabi and Banasree.</p>
+      </div>
+      <div class="value-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 21V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16M4 21h16M9 8h6m-6 4h6m-6 4h6"/></svg>
+        <h3>Delivered Track Record</h3>
+        <p>102 apartment buildings completed and handed over to clients, with 21 projects at hand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects teaser ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Ongoing</span>
+      <h2>Our Projects</h2>
+      <p class="lead">Current buildings by Hyperion — each with its own project page, photos and available apartments.</p>
+    </div>
+    <div class="grid grid-3" data-projects data-limit="3"></div>
+    <p style="margin-top: 30px;"><a class="btn btn-outline" href="projects.html">All projects</a></p>
+  </div>
+</section>
+
+<!-- ===== Gallery teaser ===== -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Gallery</span>
+      <h2>From Our Buildings</h2>
+      <p class="lead">Building photos and floor plans from the developer's published listings.</p>
+    </div>
+    <div class="gallery-grid" data-gallery-grid data-root="" data-limit="6" data-gallery-group></div>
+    <p style="margin-top: 30px;"><a class="btn btn-outline" href="gallery.html">Open the gallery</a></p>
+  </div>
+</section>
+
+<!-- ===== Videos teaser ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Videos</span>
+      <h2>Project Videos</h2>
+    </div>
+    <div class="video-grid" data-videos data-limit="2"></div>
+    <p style="margin-top: 30px;"><a class="btn btn-outline" href="videos.html">All videos</a></p>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section-tight">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Interested in an apartment?</h2>
+        <p>Talk to us directly — we answer calls and WhatsApp messages about any listing.</p>
+      </div>
+      <div class="hero-actions" style="margin-top: 0;">
+        <a class="btn btn-accent" href="{{PHONE_TEL}}">Call {{PHONE_DISPLAY}}</a>
+        <a class="btn btn-light-outline" href="{{WHATSAPP_URL}}" target="_blank" rel="noopener">Message us on {{WHATSAPP_DISPLAY}}</a>
+      </div>
+    </div>
+  </div>
+</section>
