@@ -119,9 +119,11 @@ input, select, textarea { font: inherit; color: inherit; }
 
 /* ---------- header / nav ---------- */
 .site-header {
-  position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.96);
-  backdrop-filter: blur(10px); border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.98);
+  border-bottom: 1px solid var(--line);
   transition: box-shadow .25s var(--ease);
+  /* no backdrop-filter here: it would turn the header into the containing
+     block for the fixed-position mobile drawer inside it */
 }
 .site-header.scrolled { box-shadow: 0 8px 24px rgba(16,29,44,.09); }
 .header-in { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 76px; }
@@ -612,7 +614,7 @@ input, select, textarea { font: inherit; color: inherit; }
     position: fixed; top: 0; right: 0; bottom: 0; width: min(320px, 84vw); z-index: 150;
     background: #fff; box-shadow: var(--shadow-2); padding: 90px 26px 30px;
     transform: translateX(105%); transition: transform .3s var(--ease);
-    display: flex; flex-direction: column; gap: 18px; overflow-y: auto;
+    display: flex; flex-direction: column; align-items: stretch; gap: 18px; overflow-y: auto;
   }
   .main-nav.open { transform: none; }
   .main-nav > ul { flex-direction: column; align-items: stretch; gap: 4px; }
