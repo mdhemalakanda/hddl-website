@@ -137,6 +137,10 @@ input, select, textarea { font: inherit; color: inherit; }
 .main-nav { display: flex; align-items: center; gap: 1.1rem; }
 .main-nav > ul { display: flex; align-items: center; gap: 1.65rem; flex: none; }
 .nav-cta { white-space: nowrap; flex: none; }
+/* out-ranks `.main-nav a` (0,1,1) which would otherwise strip the button's
+   white color and horizontal padding — keeps the pill looking like a button */
+.main-nav .nav-cta { padding: .6rem 1.3rem; color: #fff; }
+.main-nav .nav-cta:hover { color: #fff; }
 .main-nav a { font-weight: 700; font-size: .93rem; color: var(--ink); display: inline-flex; align-items: center; gap: .3rem; padding: .4rem 0; }
 .main-nav > ul > li > a[aria-current="page"] { color: var(--bronze-2); }
 .main-nav .chev { width: 14px; height: 14px; opacity: .6; }
